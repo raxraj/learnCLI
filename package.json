@@ -1,6 +1,6 @@
 {
-  "name": "learnCLI",
-  "version": "1.0.0",
+  "name": "git-repo-init",
+  "version": "1.0.2",
   "description": "git initialisation repo",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,10 @@
     "init"
   ],
   "bin": {
-    "ginit": "./index.js"
+    "git-init": "index.js"
   },
   "author": "RaxRaj",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@octokit/rest": "^16.37.0",
     "chalk": "^3.0.0",
@@ -26,5 +26,17 @@
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
     "simple-git": "^1.129.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raxraj/learnCLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raxraj/learnCLI/issues"
+  },
+  "homepage": "https://github.com/raxraj/learnCLI#readme"
 }
